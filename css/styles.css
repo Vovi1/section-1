@@ -1,0 +1,179 @@
+:root{
+    --logo-button-iris:#4D5AE5;
+    --navy-blu:#2E2F42;
+    --slate-text:#434455;
+    --WHITE--text:#FFFFFF;
+--logo-text-coloud:#F4F4FD;
+--button-ocean:#404BBF;
+--background-color-navyblu:#2E2F42;
+}
+
+body{ 
+    font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+color: var(--slate-text);
+background:var(--WHITE--text);
+}
+/*+++++++++++++++++++++++++++++++++++++ header */
+
+.logo {
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17px;
+letter-spacing: 0.03em;
+color: var(--logo-button-iris);
+}
+.logo:hover,
+.logo:focus{
+    color: var(--button-ocean);
+}
+.logo-text {
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17px;
+letter-spacing: 0.03em;
+color: var(--navy-blu);
+}
+.logo-text:hover,
+.logo-text:focus {
+color: var(--navy-blu);
+}
+
+.title-text {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--navy-blu);
+}
+.title-text:hover,
+.title-text:focus {
+    color: var(--button-ocean);
+}
+.link {
+    text-decoration: none;
+}
+.list {
+   list-style : none;
+}
+.title-link {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--slate-text);
+}
+.title-link:hover,
+.title-link:focus {
+    color: var(--button-ocean);
+}
+
+/*  ====================================перша секція */
+.title-slogan {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+color: var(--WHITE--text);
+background-color: var(--background-color-navyblu);
+}
+.button-text {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: var(--WHITE--text);
+background-color: var(--logo-button-iris);
+cursor: pointer;
+}
+.button-text:hover,
+.button-text:focus {
+color:var(--WHITE--text);
+background-color: var(--button-ocean);
+}
+/* hid-title */
+.title {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--navy-blu);
+
+}
+.item {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--slate-text);
+}
+
+/* ===================================================секція 2 */
+.text {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+color: var(--navy-blu);
+}
+/* ====================================================секція 3  */
+
+
+/* ================================================================footer */
+.footer {
+    background-color: var(--background-color-navyblu);
+}
+.logo-item {
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+color: var(--logo-text-coloud);
+
+}
+
+.items {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: var(--logo-text-coloud);
+}
+/* ===========================portfoglio */
+.buttons {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: var(--WHITE--text);
+background-color: var(--logo-button-iris);
+cursor: pointer;
+}
+.buttons:hover,
+.buttons:focus {
+    color: var(--WHITE--text);
+    background-color: var(--button-ocean);
+}
