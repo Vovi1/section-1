@@ -325,18 +325,27 @@ min-width: 169px;
  
     margin-top: 120px;
     margin-bottom: 120px;
+
 }
 .list-text {
    
  display: flex;
-    gap: 24px; 
+    /* gap: 24px;  */
+    list-style: none;
 }
+.list-text li{
+    margin-right: 24px;
+  }
+  .list-text li:last-child{
+    margin-right: 0;
+  }
+
  
-.title {
-    margin-bottom: 8px;
-}
 .list-item {
       width: calc((100% - 72px) / 4);
+}
+.title {
+    margin-bottom: 8px;
 }
 
 
@@ -379,12 +388,10 @@ min-width: 169px;
   
 }
 .title {
-    text-align: center;
+    
     margin-bottom: 8px;
 }
-.item {
-    text-align: center;
-}
+
 /*  fotter */
 .footer {
     padding-top: 100px;
