@@ -37,7 +37,7 @@ color: var(--logo-button-iris);
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
-line-height: 1.17px;
+line-height: 1.17;
 letter-spacing: 0.03em;
 color: var(--navy-blu);
 }
@@ -460,4 +460,7 @@ width: calc((100% - 48px) / 3);
 }
 .title-wrap {
     margin-bottom: 8px;
+}
+.link-img {
+    text-decoration: none;
 }
