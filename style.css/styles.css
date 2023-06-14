@@ -560,7 +560,7 @@ margin-bottom: 72px;
    
 border-radius: 4px;
 display: flex;
-/* align-items: center; */
+align-items: center; 
 justify-content: center;
 color: var(--button-ocean);
 }
